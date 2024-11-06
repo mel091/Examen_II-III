@@ -1,0 +1,290 @@
+body{
+    background-color: #FFF5F4;
+    
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    /* background-color: aqua; */
+    height: 60px;
+    width: 100%;
+    
+}
+    .header-logotipo{
+        display: flex;
+        align-items: center;
+        /* background-color: blueviolet; */
+        height: 100%;
+        width: 40%;
+    }
+        .header-logotipo img{
+            height: 37px;
+            width: 28px;
+            padding-right: 18px ;
+            padding-left: 18px ;
+        }
+
+        .header-logotipo h2{
+            
+            font-size: 25px;
+            font-weight: 600;
+        }
+
+    .header-perfil{
+        display: flex;
+        justify-content: end;
+        align-items: center;
+        /* background-color: blueviolet; */
+        height: 100%;
+        width: 40%;
+        
+    }
+        .header-perfil img{
+            height: 38px;
+            width: 37px;
+            padding-left: 18px ;
+            padding-right: 18px ;
+            border-radius: 50%; /* Hace la imagen circular */
+            object-fit: cover; /* Asegura que la imagen se ajuste bien dentro del círculo */
+        }
+
+        .header-perfil h4{
+            font-size: 15px;
+            font-weight: 300;
+            
+        }
+
+        .main{
+            /* background-color: green; */
+            height: 500px;
+        }
+        
+            .section{
+                display: flex;
+                /* background-color: green; */
+                height: 100%;
+                margin-top: 50px;
+                margin-left: 100px;
+                margin-right: 100px;
+                
+            }
+                .section-left{
+                    height: 400px;
+                    width: 40%;
+                    margin-right: 10px;
+                    padding-left: 20px;
+                    padding-right: 20px;
+                }
+                    .article-perfil{
+                        /* display: flex;
+                        flex-direction: row; */
+                        border: 1px solid #B66461;
+                    
+                        border-radius: 30px; /* Hace la imagen circular */
+                        object-fit: cover; /* Asegura que la imagen se ajuste bien dentro del círculo */
+                        background-color: transparent; /* Fondo transparente */
+                        padding-left: 20px;
+                        padding-right: 20px;
+                        
+                    }
+                    .perfilUsuario{
+                        display: flex;
+                        flex-direction: row;
+                        align-items: center;
+                        margin-top: 10px;
+                        margin-bottom: 10px;
+                    }
+
+                    .perfilUsuario p{
+                        font-size: 30px;
+                        font-weight: bold;
+                        text-align: center;
+                    }
+        
+                    .perfilUsuario img{
+                        height: 100px;
+                        width: 100px;
+                        padding-left: 18px ;
+                        padding-right: 18px ;
+                        border-radius: 50%; /* Hace la imagen circular */
+                        object-fit: cover; /* Asegura que la imagen se ajuste bien dentro del círculo */
+                    }
+                
+                .article-datos{
+                    border: 1px solid #B66461;
+                    
+                        border-radius: 30px; /* Hace la imagen circular */
+                        object-fit: cover; /* Asegura que la imagen se ajuste bien dentro del círculo */
+                        background-color: transparent; /* Fondo transparente */
+                        padding-left: 20px;
+                        padding-right: 20px;
+                }
+                
+                .perfilDatos p{
+                    font-size: 20px;
+                    margin: 0;
+                    margin-top: 16px;
+                    margin-bottom: 16px;
+                    font-weight: bold;
+                }
+                .perfilDatos2 p{
+                    font-size: 20px;
+                    margin: 0;
+                    margin-top: 16px;
+                    margin-bottom: 16px;
+                }
+        
+                                   
+                        
+                        
+        
+                .section-right{
+                    height: 550px;
+                    width: 60%;
+                    margin-left: 10px;
+                    border: 1px solid #B66461;
+                    border-radius: 40px; /* Hace la imagen circular */
+                    object-fit: cover; /* Asegura que la imagen se ajuste bien dentro del círculo */
+                    background-color: transparent; /* Fondo transparente */
+                    padding-left: 20px;
+                    padding-right: 20px;
+                    align-items: center;
+                }
+
+                .section-right h1{
+                    padding: 0;
+                    margin: 0;
+                    display: flex;
+                    justify-content: center;
+                    padding-top: 10px;
+                    padding-bottom: 10px;
+
+                }
+                    .article-salon{
+                        background-color:  #b664612f;
+                        border-radius: 40px; /* Hace la imagen circular */
+                        object-fit: cover; /* Asegura que la imagen se ajuste bien dentro del círculo */
+                         /* Fondo transparente */
+                        padding-left: 20px;
+                        padding-right: 20px;
+                        align-items: center;
+                    }
+        
+                   
+        
+                    .salonImagen{
+                        padding-top: 20px;
+                    }
+                        
+                        .salonImagen img {
+                            width: 140px;      /* Ajusta el ancho */
+                            height: 100px;     /* Ajusta la altura */
+                            border: 2px solid #B66461;
+                            border-radius: 10px; /* Hace la imagen circular */
+                            object-fit: cover; /* Asegura que la imagen se ajuste bien dentro del círculo */
+                            transition: transform 0.3s ease; /* Transición */
+                            padding: 0;
+                        }
+        
+                        .salonImagen img:hover {
+                            transform: scale(1.1); /* Efecto de zoom al pasar el mouse */
+                        }
+        
+        
+                        .salonTop{
+                            display: flex;
+                        }
+        
+                        .salonBottom
+                        {
+                            display: flex;
+                            justify-content: space-between;
+                        }
+        
+                        .salonInfo{
+                            padding-left: 10px;
+                            padding-top: 20px;
+                        }
+                        #jardin{
+                            font-size: 20px;
+                            margin: 0;
+                            font-weight: bold;
+                        }
+                        #anfri{
+                            font-size: 13px;
+                            padding-top: 10px;
+                            margin: 0;
+                        }
+                        #likes{
+                            display: flex;
+                            font-size: 15px;
+                            padding-top: 10px ;
+                            margin: 0;
+                        }
+        
+                        #likes img{
+                            width: 15px;
+                            height: 15px;
+                            padding: 0;
+                            padding-left: 5px ;
+                            padding-right: 5px;
+                        }
+        
+                        .salonPreico h2{
+                            margin: 0;
+                        }
+        
+                        .salonPreicoNum h2{
+                            margin: 0;
+                            margin-bottom:  15px;
+                        }
+
+                        .salonFecha h2{
+                            margin: 0;
+                            margin-bottom: 15px;
+                            font-weight: normal;
+                        }
+                        .salonFechaNum h2{
+                            margin: 0;
+                            margin-bottom: 15px;
+                            font-weight: normal;
+                        }
+
+
+@media (max-width: 1000px){
+    .section{
+        flex-direction: column;
+        align-items: center;
+            margin-left: 10px;
+            margin-right: 10px;
+          
+    }
+    .section-left{
+        width: 100%;
+        
+        margin: 0;
+        padding: 0;
+    }
+    .section-right{
+        width: 100%;
+        padding: 0;
+    }
+    .article-salon{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .salonBottom h2{
+        font-size: 15px;
+    }
+
+    .section-right h1{
+        font-size: 20px;
+    }
+
+    .salonImagen img{
+        width: 80px;
+    }
+
+}
